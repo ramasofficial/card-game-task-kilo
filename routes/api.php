@@ -16,7 +16,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/cards', [CardController::class, 'index']);
 Route::get('/decks', [DeckController::class, 'index']);
-
 Route::patch('/decks/{deck}/draw', [DrawCardController::class, 'draw']);
+
+
+Route::prefix('cards')->group(function () {
+    Route::get('/', [CardController::class, 'index']);
+    Route::post('/{type}/create', [CardController::class, 'store']);
+});
