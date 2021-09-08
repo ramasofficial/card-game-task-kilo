@@ -1,6 +1,6 @@
 # Requirements
 
-## Task 1:  Estimate XXXX - Arnas K.A
+## Task 1:  Estimate ???? -  Did Arnas from Kilo Academy
 Create something like the draw phase of the yu gi oh card game.
 Create an endpoint games/{code}/draw. When requested, draw a card from the deck.
 The deck contains all the cards in the database.
@@ -22,7 +22,7 @@ ___
 [Other props]
 ___
 
-## Task 2: Estimate XXXX
+## Task 2: Estimate ~5h, without tests - Ramas
 Create a card endpoint.
 Create an endpoint that enables the user to create any type of card from the list below.
 
@@ -54,10 +54,12 @@ Trap
 ## Details:
 
 A monster card can have an effect but there should also be an option to add a plain monster card that does not have an effect.
+
 A monster card should have attack points, defense points and a name that are different for each monster card.
+
 All monster cards should have the same color.
 
-A monster card should have a name and effect that are different for each spell card.
+A spell card should have a name and effect that are different for each spell card.
 All spell cards should have the same color.
 
 A trap card should have a name, effect and a trigger that are different for each trap card.
