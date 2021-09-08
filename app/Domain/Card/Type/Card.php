@@ -28,17 +28,17 @@ abstract class Card implements CardInterface
         return $this->effect;
     }
 
-    public function getAttack()
+    public function getAttack(): ?int
     {
         return null;
     }
 
-    public function getDefense()
+    public function getDefense(): ?int
     {
         return null;
     }
 
-    public function getTrigger()
+    public function getTrigger(): ?string
     {
         return null;
     }

@@ -14,7 +14,7 @@ class Monster extends Card
 {
     private const COLOR = 'green';
 
-    private const TYPE = 'monster';
+    public const TYPE = 'monster';
 
     private string $color;
 

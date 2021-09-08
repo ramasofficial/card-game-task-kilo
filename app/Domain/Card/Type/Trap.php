@@ -15,7 +15,7 @@ class Trap extends Card
 {
     private const COLOR = 'black';
 
-    private const TYPE = 'trap';
+    public const TYPE = 'trap';
 
     private string $color;
 

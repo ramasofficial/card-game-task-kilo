@@ -13,7 +13,7 @@ class Spell extends Card
 {
     private const COLOR = 'yellow';
 
-    private const TYPE = 'spell';
+    public const TYPE = 'spell';
 
     private string $color;
 

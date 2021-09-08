@@ -10,11 +10,11 @@ interface CardInterface
 
     public function getEffect(): ?string;
 
-    public function getAttack();
+    public function getAttack(): ?int;
 
-    public function getDefense();
+    public function getDefense(): ?int;
 
-    public function getTrigger();
+    public function getTrigger(): ?string;
 
     public function getColor(): string;
 

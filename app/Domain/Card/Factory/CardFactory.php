@@ -13,23 +13,16 @@ use App\Domain\Card\Type\Trap;
 
 class CardFactory
 {
-    private const MONSTER = 'monster';
-
-    private const SPELL = 'spell';
-
-    private const TRAP = 'trap';
-
-
     public function build(string $type, array $data): CardInterface
     {
         switch ($type) {
-            case self::MONSTER:
+            case Monster::TYPE:
                 $class = new Monster($data, new CardRepository());
                 break;
-            case self::SPELL:
+            case Spell::TYPE:
                 $class = new Spell($data, new CardRepository());
                 break;
-            case self::TRAP:
+            case Trap::TYPE:
                 $class = new Trap($data, new CardRepository());
                 break;
             default:
