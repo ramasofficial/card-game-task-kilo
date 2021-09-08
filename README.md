@@ -70,3 +70,6 @@ Please use Laravel or Symfony.
 Try to spend at most 12 hours on the task - if you think you can't manage, feel free to take a shortcut, but describe what it was and why did you take it. Also, let us know what else you could do, if you had more time.
 
 Let us know if there is anything which is not clear.
+
+# Result
+<img src="https://github.com/ramasofficial/card-game-task-kilo/blob/master/Screenshot_1.png" alt="Result" />
