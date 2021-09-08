@@ -6,7 +6,6 @@ namespace App\Domain\Card\UseCase;
 
 use App\Domain\Card\Factory\CardFactory;
 use App\Domain\Card\Repository\CardRepository;
-use App\Models\Card;
 
 class CreateCardUseCase
 {
