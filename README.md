@@ -7,32 +7,20 @@ The deck contains all the cards in the database.
 Drawing should be done in random.
 Also, once drawn, the same card cannot be drawn again.
 When drawn, illustrate the card on the page.
-|------|
-|name  |
-|      |
-|other |
-|props |
-|      |
-|      |
-|------|
 
-|------|
-|name  |
-|      |
-|other |
-|props |
-|      |
-|      |
-|------|
+___
+[Name]
 
-|------|
-|name  |
-|      |
-|other |
-|props |
-|      |
-|      |
-|------|
+[Other props]
+___
+[Name]
+
+[Other props]
+___
+[Name]
+
+[Other props]
+___
 
 ## Task 2: Estimate XXXX
 Create a card endpoint.
